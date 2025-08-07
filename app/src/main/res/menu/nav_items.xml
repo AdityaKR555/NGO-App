@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:title="Home" android:icon="@drawable/home"/>
+    <item android:id="@+id/nav_form" android:title="Form" android:icon="@drawable/googleforms"/>
+    <item android:id="@+id/nav_about" android:title="About Us" android:icon="@drawable/informationbutton"/>
+</menu>

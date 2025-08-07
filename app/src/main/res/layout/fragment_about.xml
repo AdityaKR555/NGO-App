@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42A5F5"
+    tools:context=".AboutFragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT US\n"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="400dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:text="Helping Hands is a dedicated non-profit NGO that strives to uplift underprivileged communities across India. Founded with the vision of a more equitable society, our mission is to provide access to quality education, basic healthcare, and nutritional support to those who need it the most.
+
+We work closely with local volunteers, schools, and other organizations to run awareness programs, distribute resources, and empower individuals with knowledge and skills. Our team believes in the power of compassion, community, and consistent action.
+
+Over the years, Helping Hands has organized successful donation drives, medical camps, skill development workshops, and environmental campaigns. We are always open to new volunteers and ideas that bring positive change.
+
+Together, we can build a brighter, more inclusive future.
+
+Join us today and be a part of the change."
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+</FrameLayout>

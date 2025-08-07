@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#42A5F5"
+    android:orientation="vertical" android:gravity="center" android:padding="16dp">
+
+    <ImageView
+        android:src="@drawable/ngo_logo"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:contentDescription="Logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Helping Hands NGO"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Our mission is to empower underprivileged communities through education and support."
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+</LinearLayout>
